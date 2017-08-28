@@ -1,0 +1,12 @@
+name: testing-with-hunit
+version: 0.0.1.0
+ghc-options: -Wall -Werror -Wno-unused-matches -Wincomplete-uni-patterns -Wincomplete-record-updates -Wmissing-import-lists
+
+dependencies: 
+  - base
+
+executables:
+  testing-with-hunit:
+    source-dirs: src
+    main: Main.hs 
+
