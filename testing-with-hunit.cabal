@@ -1,0 +1,20 @@
+name:                testing-with-hunit
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/chandrakoduru/testing-with-hunit#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Chandra Koduru
+maintainer:          chandrakoduru@outlook.com
+copyright:           Yep
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable testing-with-hunit
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
