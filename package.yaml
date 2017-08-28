@@ -10,3 +10,10 @@ executables:
     source-dirs: src
     main: Main.hs 
 
+tests:
+  test-pure-hunit:
+    source-dirs: test
+    main: TestPureHUnit.hs
+    dependencies:
+      - HUnit
+      - directory
