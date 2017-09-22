@@ -17,3 +17,9 @@ tests:
     dependencies:
       - HUnit
       - directory
+
+  test-pure-quickcheck:
+    source-dirs: test
+    main: TestPureQuickCheck.hs
+    dependencies:
+      - QuickCheck
